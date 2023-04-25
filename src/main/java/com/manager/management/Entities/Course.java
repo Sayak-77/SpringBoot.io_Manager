@@ -1,7 +1,5 @@
 package com.manager.management.Entities;
 
-import java.util.List;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;

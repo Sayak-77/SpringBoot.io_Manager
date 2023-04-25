@@ -1,0 +1,27 @@
+
+#This folder contains the output for the working module of the course management app.
+
+Image 0  -> Shows the initialization spring boot server connection for the app.
+
+Image 1 -> Shows that the connection is established.
+        The Mapping used is GET method
+
+Image 2 -> Shows the response for all the courses available to the users.
+        The Method used is GET method.
+
+Image 3 -> Shows he response for a specific course searched by the user using a specific ID.
+           The Mapping used is GET method.
+
+Image 4 -> Shows the response of adding a new course to the database using the RequestBody of Course class object and object of CourseService.
+           Input is in the form of JSON. The Mapping used is POST method.
+
+Image 5 -> Shows the response of updating an already existing course using the RequestBody of Course class object and object of CourseService.
+           Input is in the form of JSON. The Mapping used is PUT method.
+
+Image 6 -> Shows the response of deleting a course using the primary key ID from the database using the RequestBody of Course class object and object of CourseService.
+           We implement a try catch block so that the request only proceeds if the satatus is OK otherwise a "INTERNAL_SERVER_ERROR or BAD REQUEST" message is displayed.
+           The Mapping used is DELETE method.
+
+Image 7 -> DBeaver 'springjdbc' Database -> 'course' table structured data view.
+
+Image 8 -> MySQL 'springjdbc' database -> 'course' table data view using cmd.
